@@ -1,0 +1,24 @@
+{
+  "name": "ask-codex",
+  "version": "0.1.0",
+  "description": "Send messages to an existing Codex desktop chat, observe progress, steer work, and stop its active turn.",
+  "license": "MIT",
+  "bin": {
+    "ask-codex": "ask-codex.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "ask-codex.cjs",
+    "ask-codex",
+    "ask-codex.cmd",
+    "config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/regression.test.cjs",
+    "check": "node --check ask-codex.cjs"
+  }
+}

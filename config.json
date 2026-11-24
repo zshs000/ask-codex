@@ -1,0 +1,4 @@
+{
+  "pollSeconds": 3,
+  "historySearchLimit": 1000
+}

@@ -1,0 +1,15 @@
+node_modules/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.lock
+*.tgz
+*-evidence.json
+ask-codex-state/
+.ask-codex/
+work/
+.DS_Store
+Thumbs.db
